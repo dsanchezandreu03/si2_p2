@@ -1,0 +1,69 @@
+# =========================
+# PYTHON
+# =========================
+__pycache__/
+*.py[cod]
+*$py.class
+
+# =========================
+# VIRTUAL ENVIRONMENTS
+# =========================
+venv/
+env/
+p1_env/
+*.env
+.env
+env
+
+# =========================
+# DJANGO
+# =========================
+*.log
+local_settings.py
+db.sqlite3
+media/
+staticfiles/
+static/
+
+# Migrations (opcional)
+# Si tu profesor quiere que subas migrations, comenta esta línea
+# */migrations/*
+# !*/migrations/__init__.py
+
+# =========================
+# IDE / EDITORES
+# =========================
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# =========================
+# SISTEMA OPERATIVO
+# =========================
+.DS_Store
+Thumbs.db
+
+# =========================
+# POSTGRES / DB DUMPS
+# =========================
+*.sql
+*.dump
+
+# =========================
+# RABBITMQ / TEST FILES
+# =========================
+*.pid
+
+# =========================
+# TEST OUTPUTS / COVERAGE
+# =========================
+.coverage
+htmlcov/
+.pytest_cache/
+
+# =========================
+# DJANGO COLLECTSTATIC
+# =========================
+static_root/
